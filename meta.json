@@ -4,23 +4,53 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "user_id",
+            "title":"Spotify user ID"
+        },
+        {
+            "id": "playlist_id",
+            "title":"The Spotify ID for the playlist"
         }
-        */
     ],
     //Required. Outputs the module emits.
+//    'body.name': 'Name',
+//    'body.description': 'Description',
+//    'body.external_urls': 'URL',
+//    'body.collaborative': 'Collaborative',
+//    'body.owner.id': 'Owner_id',
+//    'body.tracks.href': 'Tracks_href',
+//    'body.followers': 'Followers',
+//    'body.uri': 'URI'
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "Name",
+            "title":"Name"
+        },
+        {
+            "id": "Description",
+            "title":"Description"
+        },
+        {
+            "id": "URL",
+            "title":"URL"
+        },
+        {
+            "id": "Collaborative",
+            "title":"Collaborative"
+        },
+        {
+            "id": "Owner_id",
+            "title":"Owner ID"
+        },
+        {
+            "id": "Tracks_href",
+            "title":"Track URLs"
+        },
+        {
+            "id": "Followers",
+            "title":"Followers"
         }
-      */
     ],
     "title": "Spotify Get Playlist" /* Required.A display name for the module */
 }
