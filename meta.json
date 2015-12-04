@@ -13,15 +13,7 @@
             "title":"The Spotify ID for the playlist"
         }
     ],
-    //Required. Outputs the module emits.
-//    'body.name': 'Name',
-//    'body.description': 'Description',
-//    'body.external_urls': 'URL',
-//    'body.collaborative': 'Collaborative',
-//    'body.owner.id': 'Owner_id',
-//    'body.tracks.href': 'Tracks_href',
-//    'body.followers': 'Followers',
-//    'body.uri': 'URI'
+
     "outputs": [
         {
             "id": "Name",
