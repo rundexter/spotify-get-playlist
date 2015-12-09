@@ -44,5 +44,6 @@
             "title":"Followers"
         }
     ],
+    "icon": "spotify",
     "title": "Spotify Get Playlist" /* Required.A display name for the module */
 }
