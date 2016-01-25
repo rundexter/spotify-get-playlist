@@ -16,34 +16,37 @@
 
     "outputs": [
         {
-            "id": "Name",
+            "id": "name",
             "title":"Name"
         },
         {
-            "id": "Description",
+            "id": "description",
             "title":"Description"
         },
         {
-            "id": "URL",
+            "id": "external_urls",
             "title":"URL"
         },
         {
-            "id": "Collaborative",
+            "id": "collaborative",
             "title":"Collaborative"
         },
         {
-            "id": "Owner_id",
+            "id": "owner_id",
             "title":"Owner ID"
         },
         {
-            "id": "Tracks_href",
+            "id": "tracks_href",
             "title":"Track URLs"
         },
         {
-            "id": "Followers",
+            "id": "followers",
             "title":"Followers"
         }
     ],
+    "providers": [{
+        "name": "spotify"
+    }],
     "icon": "spotify",
     "title": "Spotify Get Playlist" /* Required.A display name for the module */
 }
